@@ -1,0 +1,7 @@
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.dll.config
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.dll
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.pdb
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csprojAssemblyReference.cache
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.dll
+C:\Users\Aghil\source\repos\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.pdb

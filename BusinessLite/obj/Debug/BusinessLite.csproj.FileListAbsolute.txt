@@ -1,0 +1,10 @@
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\bin\Debug\BusinessLite.dll
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\bin\Debug\BusinessLite.pdb
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\bin\Debug\DataLayerPetaPoco.dll
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\bin\Debug\DataLayerPetaPoco.pdb
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\bin\Debug\DataLayerPetaPoco.dll.config
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.csprojAssemblyReference.cache
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.csproj.CoreCompileInputs.cache
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.csproj.CopyComplete
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.dll
+C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.pdb
