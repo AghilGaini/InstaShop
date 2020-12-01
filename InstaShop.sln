@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLite", "BusinessLit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{62C9F313-9652-4E4A-9E1F-373A4793AAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{0B7E7FB9-35EA-43C0-9242-90DABA1FB35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyException", "MyException\MyException.csproj", "{96DA8EA3-7570-40E8-9D78-99A510D50815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{62C9F313-9652-4E4A-9E1F-373A4793AAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C9F313-9652-4E4A-9E1F-373A4793AAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C9F313-9652-4E4A-9E1F-373A4793AAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7E7FB9-35EA-43C0-9242-90DABA1FB35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7E7FB9-35EA-43C0-9242-90DABA1FB35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7E7FB9-35EA-43C0-9242-90DABA1FB35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7E7FB9-35EA-43C0-9242-90DABA1FB35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DA8EA3-7570-40E8-9D78-99A510D50815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DA8EA3-7570-40E8-9D78-99A510D50815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DA8EA3-7570-40E8-9D78-99A510D50815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DA8EA3-7570-40E8-9D78-99A510D50815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="BaseBusiness.cs" />
     <Compile Include="Business.cs" />
+    <Compile Include="InstaShop\dbo\BasicTypeBusiness.cs" />
+    <Compile Include="InstaShop\dbo\BasicValueBusiness.cs" />
     <Compile Include="InstaShop\dbo\CategoryBusiness.cs" />
     <Compile Include="InstaShop\dbo\ShopBusiness.cs" />
     <Compile Include="InstaShop\dbo\ShopPostBusiness.cs" />

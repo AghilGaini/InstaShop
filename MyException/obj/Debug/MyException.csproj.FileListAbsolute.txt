@@ -1,0 +1,14 @@
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.csprojAssemblyReference.cache
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.csproj.CoreCompileInputs.cache
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\MyException.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\MyException.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\BusinessLite.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\DataLayerPetaPoco.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\Utilities.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\BusinessLite.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\DataLayerPetaPoco.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\DataLayerPetaPoco.dll.config
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\Debug\Utilities.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.csproj.CopyComplete
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.pdb

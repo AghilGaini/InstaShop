@@ -26,7 +26,7 @@
 // 
 //     Connection String Name: `InstaShop`
 //     Provider:               `System.Data.SqlClient`
-//     Connection String:      `Data Source=.\sqlexpress;Initial Catalog=InstaShop;Integrated Security=False;User Id=sa;password=**zapped**;MultipleActiveResultSets=True`
+//     Connection String:      `Data Source=.;Initial Catalog=InstaShop;Integrated Security=False;User Id=sa;password=**zapped**;MultipleActiveResultSets=True`
 //     Schema:                 ``
 //     Include Views:          `False`
 
@@ -137,6 +137,146 @@ namespace Models.Generated.InstaShop
 
     
 
+	[TableName("[dbo].[BasicType]")]
+
+
+
+	[PrimaryKey("ID", AutoIncrement=false)]
+
+
+	[ExplicitColumns]
+
+    public partial class BasicType : InstaShopDB.Record<BasicType>  
+    {
+
+		public struct Columns
+		{
+			
+				public static string ID = @"ID";
+
+			
+				public static string Title = @"Title";
+
+			
+
+		}
+
+
+
+
+
+		[Column] public int ID { get; set; }
+
+
+
+
+
+		[Column] public string Title { get; set; }
+
+
+
+	}
+
+    
+
+	[TableName("[dbo].[BasicValue]")]
+
+
+
+	[PrimaryKey("[ID]")]
+
+
+
+
+	[ExplicitColumns]
+
+    public partial class BasicValue : InstaShopDB.Record<BasicValue>  
+    {
+
+		public struct Columns
+		{
+			
+				public static string ID = @"ID";
+
+			
+				public static string BasicType = @"BasicType";
+
+			
+				public static string Identifier = @"Identifier";
+
+			
+				public static string Description = @"Description";
+
+			
+				public static string Title = @"Title";
+
+			
+				public static string EnTitle = @"EnTitle";
+
+			
+				public static string IsActive = @"IsActive";
+
+			
+				public static string CreationDate = @"CreationDate";
+
+			
+
+		}
+
+
+
+
+
+		[Column] public int ID { get; set; }
+
+
+
+
+
+		[Column] public int BasicType { get; set; }
+
+
+
+
+
+		[Column] public int Identifier { get; set; }
+
+
+
+
+
+		[Column] public string Description { get; set; }
+
+
+
+
+
+		[Column] public string Title { get; set; }
+
+
+
+
+
+		[Column] public string EnTitle { get; set; }
+
+
+
+
+
+		[Column] public bool IsActive { get; set; }
+
+
+
+
+
+		[Column] public DateTime CreationDate { get; set; }
+
+
+
+	}
+
+    
+
 	[TableName("[dbo].[Category]")]
 
 
@@ -154,28 +294,25 @@ namespace Models.Generated.InstaShop
 		public struct Columns
 		{
 			
-				static string ID = @"ID";
+				public static string ID = @"ID";
 
 			
-				static string Gid = @"Gid";
+				public static string TitleFa = @"TitleFa";
 
 			
-				static string Name = @"Name";
+				public static string TitleEn = @"TitleEn";
 
 			
-				static string ParrentGid = @"ParrentGid";
+				public static string CreationDate = @"CreationDate";
 
 			
-				static string CreatedOn = @"CreatedOn";
+				public static string ParentID = @"ParentID";
 
 			
-				static string CreatedBy = @"CreatedBy";
+				public static string Type = @"Type";
 
 			
-				static string ModfiedOn = @"ModfiedOn";
-
-			
-				static string ModifiedBy = @"ModifiedBy";
+				public static string TypeName = @"TypeName";
 
 			
 
@@ -191,43 +328,37 @@ namespace Models.Generated.InstaShop
 
 
 
-		[Column] public Guid Gid { get; set; }
+		[Column] public string TitleFa { get; set; }
 
 
 
 
 
-		[Column] public string Name { get; set; }
+		[Column] public string TitleEn { get; set; }
 
 
 
 
 
-		[Column] public Guid? ParrentGid { get; set; }
+		[Column] public DateTime CreationDate { get; set; }
 
 
 
 
 
-		[Column] public DateTime? CreatedOn { get; set; }
+		[Column] public int? ParentID { get; set; }
 
 
 
 
 
-		[Column] public string CreatedBy { get; set; }
+		[Column] public int? Type { get; set; }
 
 
 
 
 
-		[Column] public DateTime? ModfiedOn { get; set; }
-
-
-
-
-
-		[Column] public string ModifiedBy { get; set; }
+		[Column] public string TypeName { get; set; }
 
 
 
@@ -252,49 +383,55 @@ namespace Models.Generated.InstaShop
 		public struct Columns
 		{
 			
-				static string ID = @"ID";
+				public static string ID = @"ID";
 
 			
-				static string InstaID = @"InstaID";
+				public static string InstaID = @"InstaID";
 
 			
-				static string Name = @"Name";
+				public static string PostsCount = @"PostsCount";
 
 			
-				static string PostsCount = @"PostsCount";
+				public static string Followers = @"Followers";
 
 			
-				static string Followers = @"Followers";
+				public static string Following = @"Following";
 
 			
-				static string Following = @"Following";
+				public static string Bio = @"Bio";
 
 			
-				static string Bio = @"Bio";
+				public static string CategoryID = @"CategoryID";
 
 			
-				static string CategoryID = @"CategoryID";
+				public static string CityID = @"CityID";
 
 			
-				static string CityID = @"CityID";
+				public static string MainProfilePicPath = @"MainProfilePicPath";
 
 			
-				static string MainProfilePicPath = @"MainProfilePicPath";
+				public static string VirtualProfilePicPath = @"VirtualProfilePicPath";
 
 			
-				static string VirtualProfilePicPath = @"VirtualProfilePicPath";
+				public static string PublicProfileURL = @"PublicProfileURL";
 
 			
-				static string CreatedOn = @"CreatedOn";
+				public static string CreatedOn = @"CreatedOn";
 
 			
-				static string CreatedBy = @"CreatedBy";
+				public static string CreatedBy = @"CreatedBy";
 
 			
-				static string ModifiedOn = @"ModifiedOn";
+				public static string ModifiedOn = @"ModifiedOn";
 
 			
-				static string ModifiedBy = @"ModifiedBy";
+				public static string ModifiedBy = @"ModifiedBy";
+
+			
+				public static string UserName = @"UserName";
+
+			
+				public static string FullName = @"FullName";
 
 			
 
@@ -311,12 +448,6 @@ namespace Models.Generated.InstaShop
 
 
 		[Column] public long InstaID { get; set; }
-
-
-
-
-
-		[Column] public string Name { get; set; }
 
 
 
@@ -370,6 +501,12 @@ namespace Models.Generated.InstaShop
 
 
 
+		[Column] public string PublicProfileURL { get; set; }
+
+
+
+
+
 		[Column] public DateTime CreatedOn { get; set; }
 
 
@@ -389,6 +526,18 @@ namespace Models.Generated.InstaShop
 
 
 		[Column] public string ModifiedBy { get; set; }
+
+
+
+
+
+		[Column] public string UserName { get; set; }
+
+
+
+
+
+		[Column] public string FullName { get; set; }
 
 
 
@@ -413,37 +562,37 @@ namespace Models.Generated.InstaShop
 		public struct Columns
 		{
 			
-				static string ID = @"ID";
+				public static string ID = @"ID";
 
 			
-				static string ShopID = @"ShopID";
+				public static string ShopID = @"ShopID";
 
 			
-				static string PublicPictureURLs = @"PublicPictureURLs";
+				public static string PublicPictureURLs = @"PublicPictureURLs";
 
 			
-				static string Hashtags = @"Hashtags";
+				public static string Hashtags = @"Hashtags";
 
 			
-				static string Description = @"Description";
+				public static string Description = @"Description";
 
 			
-				static string LikesCount = @"LikesCount";
+				public static string LikesCount = @"LikesCount";
 
 			
-				static string CommentsCount = @"CommentsCount";
+				public static string CommentsCount = @"CommentsCount";
 
 			
-				static string CreatedOn = @"CreatedOn";
+				public static string CreatedOn = @"CreatedOn";
 
 			
-				static string CreatedBy = @"CreatedBy";
+				public static string CreatedBy = @"CreatedBy";
 
 			
-				static string ModifiedOn = @"ModifiedOn";
+				public static string ModifiedOn = @"ModifiedOn";
 
 			
-				static string ModifiedBy = @"ModifiedBy";
+				public static string ModifiedBy = @"ModifiedBy";
 
 			
 

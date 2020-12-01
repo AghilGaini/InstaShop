@@ -162,7 +162,7 @@ foreach(Table tbl in from t in tables where !t.Ignore select t)
 		public struct Columns
 		{
 			<#  foreach(Column col in from c in tbl.Columns where !c.Ignore select c) { #>
-				static string <#=col.PropertyName #> = @"<#=col.PropertyName #>";
+				public static string <#=col.PropertyName #> = @"<#=col.PropertyName #>";
 
 			<# } #>
 

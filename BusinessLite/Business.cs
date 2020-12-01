@@ -22,5 +22,15 @@ namespace BusinessLite
         {
             return new InstaShop.dbo.ShopPostBusiness();
         }
+
+        public static BusinessLite.InstaShop.dbo.BasicTypeBusiness GetBasicTypeBusiness()
+        {
+            return new InstaShop.dbo.BasicTypeBusiness();
+        }
+
+        public static BusinessLite.InstaShop.dbo.BasicValueBusiness GetBasicValueBusiness()
+        {
+            return new InstaShop.dbo.BasicValueBusiness();
+        }
     }
 }

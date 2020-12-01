@@ -8,3 +8,13 @@ C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.csproj
 C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.csproj.CopyComplete
 C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.dll
 C:\Users\Aghil\source\repos\InstaShop\BusinessLite\obj\Debug\BusinessLite.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\bin\Debug\BusinessLite.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\bin\Debug\BusinessLite.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\bin\Debug\DataLayerPetaPoco.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\bin\Debug\DataLayerPetaPoco.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\bin\Debug\DataLayerPetaPoco.dll.config
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\obj\Debug\BusinessLite.csprojAssemblyReference.cache
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\obj\Debug\BusinessLite.csproj.CoreCompileInputs.cache
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\obj\Debug\BusinessLite.csproj.CopyComplete
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\obj\Debug\BusinessLite.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\BusinessLite\obj\Debug\BusinessLite.pdb
