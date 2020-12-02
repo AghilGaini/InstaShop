@@ -1,0 +1,12 @@
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Test.exe.config
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Test.exe
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Test.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Logger.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Utilities.dll
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Logger.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\bin\Debug\Utilities.pdb
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.exe
+C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.pdb

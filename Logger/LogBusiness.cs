@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+//using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
@@ -53,8 +55,8 @@ namespace Logger
 
         private readonly object lockObj = new object();
         static SemaphoreSlim semaphoreSlim = new SemaphoreSlim(1, 1);
-        public static Queue<object> MyErrorQueue = new Queue<object>();
-        public static Queue<object> TempErrorQueue = new Queue<object>();
+        public static Queue MyErrorQueue = new Queue();
+        public static Queue TempErrorQueue = new Queue();
         public static int AllError = 0;
 
         private bool _isActiveLog = true;
@@ -351,7 +353,7 @@ namespace Logger
             }
 
         }
-        private async void InsertTextLog(Queue<object>ErrorQueue)
+        private async void InsertTextLog(Queue ErrorQueue)
         {
             try
             {

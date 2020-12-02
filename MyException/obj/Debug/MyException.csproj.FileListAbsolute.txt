@@ -12,3 +12,17 @@ C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\bin\De
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.csproj.CopyComplete
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.dll
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\MyException\obj\Debug\MyException.pdb
+D:\InstaShop\MyException\bin\Debug\MyException.dll
+D:\InstaShop\MyException\bin\Debug\MyException.pdb
+D:\InstaShop\MyException\bin\Debug\BusinessLite.dll
+D:\InstaShop\MyException\bin\Debug\DataLayerPetaPoco.dll
+D:\InstaShop\MyException\bin\Debug\Utilities.dll
+D:\InstaShop\MyException\bin\Debug\BusinessLite.pdb
+D:\InstaShop\MyException\bin\Debug\DataLayerPetaPoco.pdb
+D:\InstaShop\MyException\bin\Debug\DataLayerPetaPoco.dll.config
+D:\InstaShop\MyException\bin\Debug\Utilities.pdb
+D:\InstaShop\MyException\obj\Debug\MyException.csprojAssemblyReference.cache
+D:\InstaShop\MyException\obj\Debug\MyException.csproj.CoreCompileInputs.cache
+D:\InstaShop\MyException\obj\Debug\MyException.csproj.CopyComplete
+D:\InstaShop\MyException\obj\Debug\MyException.dll
+D:\InstaShop\MyException\obj\Debug\MyException.pdb

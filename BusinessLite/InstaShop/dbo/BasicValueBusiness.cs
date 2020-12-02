@@ -7,7 +7,7 @@ using Models.Generated.InstaShop;
 
 namespace BusinessLite.InstaShop.dbo
 {
-    public class BasicValueBusiness : BaseBusiness<BasicValue>
+    public class BasicValueBusiness : InstaShopBase<BasicValue>
     {
         public List<BasicValue> GetExceptions()
         {
