@@ -10,3 +10,15 @@ C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Tes
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.exe
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Test\obj\Debug\Test.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Test.exe.config
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Test.exe
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Test.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Logger.dll
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Utilities.dll
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Logger.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Test\bin\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop-master\InstaShop\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop-master\InstaShop\Test\obj\Debug\Test.csproj.CopyComplete
+D:\MyProjects\InstaShop-master\InstaShop\Test\obj\Debug\Test.exe
+D:\MyProjects\InstaShop-master\InstaShop\Test\obj\Debug\Test.pdb

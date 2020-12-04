@@ -26,3 +26,17 @@ D:\InstaShop\MyException\obj\Debug\MyException.csproj.CoreCompileInputs.cache
 D:\InstaShop\MyException\obj\Debug\MyException.csproj.CopyComplete
 D:\InstaShop\MyException\obj\Debug\MyException.dll
 D:\InstaShop\MyException\obj\Debug\MyException.pdb
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\MyException.dll
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\MyException.pdb
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\BusinessLite.dll
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\DataLayerPetaPoco.dll
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\Utilities.dll
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\BusinessLite.pdb
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\DataLayerPetaPoco.pdb
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\DataLayerPetaPoco.dll.config
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.csproj.CopyComplete
+D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.dll
+D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.pdb

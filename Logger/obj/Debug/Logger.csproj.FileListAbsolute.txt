@@ -7,3 +7,12 @@ C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Logger\bin\Debug\U
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Logger\obj\Debug\Logger.csproj.CopyComplete
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Logger\obj\Debug\Logger.dll
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Logger\obj\Debug\Logger.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\Logger.dll
+D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\Logger.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\Utilities.dll
+D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop-master\InstaShop\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop-master\InstaShop\Logger\obj\Debug\Logger.csproj.CopyComplete
+D:\MyProjects\InstaShop-master\InstaShop\Logger\obj\Debug\Logger.dll
+D:\MyProjects\InstaShop-master\InstaShop\Logger\obj\Debug\Logger.pdb

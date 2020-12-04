@@ -9,3 +9,9 @@ C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Utilities\obj\Debu
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Utilities\obj\Debug\Utilities.dll
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\Utilities\obj\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\bin\Debug\Utilities.dll
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\bin\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.dll
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.pdb

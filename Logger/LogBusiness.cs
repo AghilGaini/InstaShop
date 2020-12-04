@@ -250,6 +250,7 @@ namespace Logger
                 if (item.Contains("timeformat"))
                 {
                     _TextlogLayout.TimeFormat = item.Split('{').ToList()[1].Trim('}');
+                    continue;
                 }
                 if (IsEception)
                 {
@@ -261,10 +262,12 @@ namespace Logger
                     if (item == "line")
                     {
                         _TextlogLayout.LineNumber = true;
+                        continue;
                     }
                     if (item == "column")
                     {
                         _TextlogLayout.ColumnNumber = true;
+                        continue;
                     }
                 }
             }

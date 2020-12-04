@@ -111,6 +111,7 @@ namespace Utilities
             {
                 public static class Directories
                 {
+                    public static string BaseLogPath = string.Format(@"{0}:\{1}","C","InstaShopLogFolder");
                     public static string ErrorPath
                     {
                         get
@@ -118,7 +119,7 @@ namespace Utilities
                             string Res = ConfigurationManager.AppSettings["ErrorPath"].ToNullableString();
                             if (!string.IsNullOrEmpty(Res))
                                 return Res;
-                            return @"C:\TJCLogFolder\Error";
+                            return string.Format(@"{0}\{1}",BaseLogPath,"Error");
                         }
                     }
 
@@ -129,7 +130,7 @@ namespace Utilities
                             string Res = ConfigurationManager.AppSettings["WarningPath"].ToNullableString();
                             if (!string.IsNullOrEmpty(Res))
                                 return Res;
-                            return @"C:\TJCLogFolder\Warning";
+                            return string.Format(@"{0}\{1}", BaseLogPath, "Warning");
                         }
                     }
 
@@ -140,7 +141,7 @@ namespace Utilities
                             string Res = ConfigurationManager.AppSettings["InfoPath"].ToNullableString();
                             if (!string.IsNullOrEmpty(Res))
                                 return Res;
-                            return @"C:\TJCLogFolder\Info";
+                            return string.Format(@"{0}\{1}", BaseLogPath, "Info");
                         }
                     }
 
@@ -151,7 +152,7 @@ namespace Utilities
                             string Res = ConfigurationManager.AppSettings["DebugPath"].ToNullableString();
                             if (!string.IsNullOrEmpty(Res))
                                 return Res;
-                            return @"C:\TJCLogFolder\Debug";
+                            return string.Format(@"{0}\{1}", BaseLogPath, "Debug");
                         }
                     }
                     public static string FatalPath
@@ -161,7 +162,7 @@ namespace Utilities
                             string Res = ConfigurationManager.AppSettings["FatalPath"].ToNullableString();
                             if (!string.IsNullOrEmpty(Res))
                                 return Res;
-                            return @"C:\TJCLogFolder\Fatal";
+                            return string.Format(@"{0}\{1}", BaseLogPath, "Fatal");
                         }
                     }
                 }

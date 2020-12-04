@@ -12,3 +12,10 @@ C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\DataLayerPetaPoco\
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.dll
 C:\Users\a.gaeini\Desktop\drive-download-20201128T145126Z-001\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.pdb
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.dll.config
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.dll
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.pdb
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.dll
+D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.pdb
