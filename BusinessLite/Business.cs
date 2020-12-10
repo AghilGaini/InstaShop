@@ -31,9 +31,9 @@ namespace BusinessLite
         #endregion
 
         #region log
-        public static BusinessLite.InstaShop.Log.ApiLoggerBusiness GetApiLoggerBusiness()
+        public static BusinessLite.InstaShop.log.ApiLoggerBusiness GetApiLoggerBusiness()
         {
-            return new InstaShop.Log.ApiLoggerBusiness();
+            return new InstaShop.log.ApiLoggerBusiness();
         }
         #endregion
     }
