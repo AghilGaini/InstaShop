@@ -40,3 +40,5 @@ D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.cspro
 D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.csproj.CopyComplete
 D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.dll
 D:\MyProjects\InstaShop-master\InstaShop\MyException\obj\Debug\MyException.pdb
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\Newtonsoft.Json.dll
+D:\MyProjects\InstaShop-master\InstaShop\MyException\bin\Debug\Newtonsoft.Json.xml

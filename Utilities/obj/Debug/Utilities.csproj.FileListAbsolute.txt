@@ -15,3 +15,6 @@ D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.csprojAss
 D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.dll
 D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\bin\Debug\Newtonsoft.Json.dll
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\bin\Debug\Newtonsoft.Json.xml
+D:\MyProjects\InstaShop-master\InstaShop\Utilities\obj\Debug\Utilities.csproj.CopyComplete

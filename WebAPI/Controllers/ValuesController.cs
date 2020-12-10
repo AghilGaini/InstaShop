@@ -1,24 +1,15 @@
-﻿using MyException;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
+﻿using System.Web.Http;
 
 namespace WebAPI.Controllers
 {
     public class ValuesController : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public string Get()
         {
-
             var Res = BusinessLite.FacadeInstaShop.GetCategoryBusiness().GetByID(1);
 
-            
-
-            return new string[] { Res.TitleFa };
+            return "Value";
         }
 
         // GET api/values/5

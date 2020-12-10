@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-//using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using Utilities;
 
 namespace Logger
@@ -92,12 +89,12 @@ namespace Logger
             }
             else
             {
-
+                InsertDataBaseLog(message);
             }
         }
 
         #region TextLog
-        public void TextLog(string message, LogLevel logLevel, LogType logType, Exception ex)
+        private void TextLog(string message, LogLevel logLevel, LogType logType, Exception ex)
         {
             _isActiveLog = ConfigurationManager.AppSettings["IsActiveLog"].ToBoolean();
             if (!_isActiveLog)
@@ -145,7 +142,7 @@ namespace Logger
 
             InsertTextLog(message, path);
         }
-        public void TextLog(string message, LogLevel logLevel, LogType logType)
+        private void TextLog(string message, LogLevel logLevel, LogType logType)
         {
             _isActiveLog = ConfigurationManager.AppSettings["IsActiveLog"].ToBoolean();
             if (!_isActiveLog)
@@ -416,6 +413,14 @@ namespace Logger
 
         }
 
+        #endregion
+
+        #region DataBaseLog
+        private void InsertDataBaseLog(string Json)
+        {
+            var LogObject = Newtonsoft.Json.JsonConvert.DeserializeObject<Models.Generated.InstaShop.ApiLogger>(Json);
+            LogObject.Save();
+        }
         #endregion
     }
 }

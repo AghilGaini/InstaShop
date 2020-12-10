@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Utilities
 {
@@ -236,6 +233,21 @@ namespace Utilities
                 }
                 return builder.ToString();
             }
+        }
+        public static string ToJson(this object o)
+        {
+            try
+            {
+                return Newtonsoft.Json.JsonConvert.SerializeObject(o);
+            }
+            catch
+            {
+                return string.Empty;
+            }
+        }
+        public static T FromJson<T>(this string s)
+        {
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(s);
         }
     }
 }

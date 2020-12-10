@@ -48,6 +48,7 @@
     <Compile Include="InstaShop\dbo\CategoryBusiness.cs" />
     <Compile Include="InstaShop\dbo\ShopBusiness.cs" />
     <Compile Include="InstaShop\dbo\ShopPostBusiness.cs" />
+    <Compile Include="InstaShop\Log\ApiLoggerBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Query.cs" />
   </ItemGroup>

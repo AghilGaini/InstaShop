@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 using System.Web.Http.Results;
@@ -30,7 +27,7 @@ namespace WebAPI.Models.Handlers
             var jsonType = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
             jsonType.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
 
-            var Response = context.Request.CreateResponse(HttpStatusCode.OK, Res, jsonType);
+            var Response = context.Request.CreateResponse(HttpStatusCode.ExpectationFailed, Res, jsonType);
 
             context.Result = new ResponseMessageResult(Response);
 

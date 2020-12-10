@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace BusinessLite
 {
     public static class FacadeInstaShop
     {
+        #region dbo
         public static BusinessLite.InstaShop.dbo.CategoryBusiness GetCategoryBusiness()
         {
             return new InstaShop.dbo.CategoryBusiness();
@@ -32,5 +28,13 @@ namespace BusinessLite
         {
             return new InstaShop.dbo.BasicValueBusiness();
         }
+        #endregion
+
+        #region log
+        public static BusinessLite.InstaShop.Log.ApiLoggerBusiness GetApiLoggerBusiness()
+        {
+            return new InstaShop.Log.ApiLoggerBusiness();
+        }
+        #endregion
     }
 }

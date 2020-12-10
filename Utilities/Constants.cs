@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Configuration;
 
 namespace Utilities
 {
@@ -111,7 +106,7 @@ namespace Utilities
             {
                 public static class Directories
                 {
-                    public static string BaseLogPath = string.Format(@"{0}:\{1}","C","InstaShopLogFolder");
+                    public static string BaseLogPath = string.Format(@"{0}:\{1}", "C", "InstaShopLogFolder");
                     public static string ErrorPath
                     {
                         get
@@ -119,7 +114,7 @@ namespace Utilities
                             string Res = ConfigurationManager.AppSettings["ErrorPath"].ToNullableString();
                             if (!string.IsNullOrEmpty(Res))
                                 return Res;
-                            return string.Format(@"{0}\{1}",BaseLogPath,"Error");
+                            return string.Format(@"{0}\{1}", BaseLogPath, "Error");
                         }
                     }
 
@@ -231,7 +226,19 @@ namespace Utilities
 
         public static class BasicType
         {
-            public static int CloseReason { get { return 5; } }
+            public static int ApiMethodType { get { return 100; } }
+        }
+
+        public static class BasicValue
+        {
+            public static class ApiMethodType
+            {
+                public static int GET { get { return 1; } }
+                public static int POST { get { return 2; } }
+                public static int PUT { get { return 3; } }
+                public static int DELETE { get { return 4; } }
+
+            }
         }
 
     }
