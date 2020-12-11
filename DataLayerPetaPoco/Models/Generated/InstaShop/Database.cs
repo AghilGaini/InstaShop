@@ -16,7 +16,7 @@ using System.Linq;
 using System.Web;
 using PetaPoco;
 
-namespace Models.Generated.InstaShop
+namespace DataLayerPetaPoco.Models.Generated.InstaShop
 {
 	public partial class InstaShopDB : Database
 	{
@@ -174,32 +174,29 @@ namespace Models.Generated.InstaShop
 		{
 							public static string ID = @"ID";
 
+							public static string Title = @"Title";
+
+							public static string EnTitle = @"EnTitle";
+
 							public static string Gid = @"Gid";
 
-							public static string Name = @"Name";
-
-							public static string ParrentGid = @"ParrentGid";
+							public static string Gref = @"Gref";
 
 							public static string CreatedOn = @"CreatedOn";
 
 							public static string CreatedBy = @"CreatedBy";
 
-							public static string ModfiedOn = @"ModfiedOn";
-
-							public static string ModifiedBy = @"ModifiedBy";
-
 			
 		}
 
 
-		[Column] public int ID { get; set; }
-		[Column] public Guid Gid { get; set; }
-		[Column] public string Name { get; set; }
-		[Column] public Guid? ParrentGid { get; set; }
+		[Column] public long ID { get; set; }
+		[Column] public string Title { get; set; }
+		[Column] public string EnTitle { get; set; }
+		[Column] public Guid? Gid { get; set; }
+		[Column] public Guid? Gref { get; set; }
 		[Column] public DateTime? CreatedOn { get; set; }
 		[Column] public string CreatedBy { get; set; }
-		[Column] public DateTime? ModfiedOn { get; set; }
-		[Column] public string ModifiedBy { get; set; }
 	}
     
 	[TableName("[dbo].[Shop]")]

@@ -38,3 +38,7 @@ D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\obj\Debug\BusinessLite.csp
 D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\obj\Debug\BusinessLite.csproj.CopyComplete
 D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\obj\Debug\BusinessLite.dll
 D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\obj\Debug\BusinessLite.pdb
+D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Utilities.dll
+D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Newtonsoft.Json.dll
+D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Utilities.pdb
+D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Newtonsoft.Json.xml

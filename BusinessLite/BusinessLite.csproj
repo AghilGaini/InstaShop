@@ -57,6 +57,10 @@
       <Project>{8bbc8f0d-1cb6-4931-a459-2a9506613aba}</Project>
       <Name>DataLayerPetaPoco</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{62c9f313-9652-4e4a-9e1f-373a4793aae5}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

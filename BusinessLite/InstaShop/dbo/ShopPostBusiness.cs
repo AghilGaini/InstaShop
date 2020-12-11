@@ -1,4 +1,4 @@
-﻿using Models.Generated.InstaShop;
+﻿using DataLayerPetaPoco.Models.Generated.InstaShop;
 
 namespace BusinessLite.InstaShop.dbo
 {

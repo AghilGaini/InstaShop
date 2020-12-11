@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using Utilities;
-using Models.Generated.InstaShop;
+using DataLayerPetaPoco.Models.Generated.InstaShop;
 
 namespace WebAPI.Models.Handlers
 {

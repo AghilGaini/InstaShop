@@ -210,14 +210,7 @@ namespace Utilities
         {
             public static class Level1
             {
-                public static string Demand_Offer { get { return "Demand,Offer,DemandID"; } }
-                public static string Category_Product { get { return "Category,Product,CategoryID"; } }
-                public static string User_Role { get { return "User,Role,UserID"; } }
-                public static string Demand_DemandInfo { get { return "Demand,DemandInfo,DemandID"; } }
-                public static string User_Offer { get { return "User,Offer,UserID"; } }
-                public static string User_Image { get { return "User,Image,UserID"; } }
-
-
+                public static string Category_Shop { get { return "Category,Shop,CategoryID"; } }
             }
             public static class Level2
             {

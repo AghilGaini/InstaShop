@@ -2,7 +2,7 @@
 <#
 	// Settings
     ConnectionStringName = "InstaShop";			// Uses last connection string in config if not specified
-    Namespace = "Models.Generated.InstaShop";
+    Namespace = "DataLayerPetaPoco.Models.Generated.InstaShop";
     RepoName = "";
     GenerateOperations = true;
 	GeneratePocos = true;

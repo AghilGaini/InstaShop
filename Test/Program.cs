@@ -24,7 +24,7 @@ namespace Test
                 //    "Method", "IP", "controller", "action", "Token", "Input", "Output"),
                 //    Logger.LogLevel.Info, Logger.LogType.DataBase);
 
-                var a = new Models.Generated.InstaShop.ApiLogger()
+                var a = new DataLayerPetaPoco.Models.Generated.InstaShop.ApiLogger()
                 {
                     Action = "Action",
                     Controller = "Controller",
@@ -59,7 +59,7 @@ namespace Test
 
                 var t = a.ToJson();
 
-                var b = t.FromJson<Models.Generated.InstaShop.ApiLogger>();
+                var b = t.FromJson<DataLayerPetaPoco.Models.Generated.InstaShop.ApiLogger>();
 
                 Console.WriteLine(a);
 

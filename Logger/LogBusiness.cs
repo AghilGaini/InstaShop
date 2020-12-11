@@ -418,7 +418,7 @@ namespace Logger
         #region DataBaseLog
         private void InsertDataBaseLog(string Json)
         {
-            var LogObject = Newtonsoft.Json.JsonConvert.DeserializeObject<Models.Generated.InstaShop.ApiLogger>(Json);
+            var LogObject = Newtonsoft.Json.JsonConvert.DeserializeObject<DataLayerPetaPoco.Models.Generated.InstaShop.ApiLogger>(Json);
             LogObject.Save();
         }
         #endregion
