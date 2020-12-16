@@ -21,3 +21,17 @@ D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\Newtonsoft.Json.dll
 D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\DataLayerPetaPoco.pdb
 D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\DataLayerPetaPoco.dll.config
 D:\MyProjects\InstaShop-master\InstaShop\Logger\bin\Debug\Newtonsoft.Json.xml
+D:\InstaShop\Logger\bin\Debug\Logger.dll
+D:\InstaShop\Logger\bin\Debug\Logger.pdb
+D:\InstaShop\Logger\bin\Debug\DataLayerPetaPoco.dll
+D:\InstaShop\Logger\bin\Debug\Newtonsoft.Json.dll
+D:\InstaShop\Logger\bin\Debug\Utilities.dll
+D:\InstaShop\Logger\bin\Debug\DataLayerPetaPoco.pdb
+D:\InstaShop\Logger\bin\Debug\DataLayerPetaPoco.dll.config
+D:\InstaShop\Logger\bin\Debug\Utilities.pdb
+D:\InstaShop\Logger\bin\Debug\Newtonsoft.Json.xml
+D:\InstaShop\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\InstaShop\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\InstaShop\Logger\obj\Debug\Logger.csproj.CopyComplete
+D:\InstaShop\Logger\obj\Debug\Logger.dll
+D:\InstaShop\Logger\obj\Debug\Logger.pdb

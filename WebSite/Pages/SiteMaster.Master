@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="WebSite.Pages.SiteMaster" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Styles/toastr.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../Scripts/toastr.min.js"></script>
+    <script src="../Scripts/myToastr.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TJC</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" Gref="" Gid="4F49593F-BD5E-4FFE-BB7B-45AC0B8F9B8B" name="Security">Security<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" Gref="4F49593F-BD5E-4FFE-BB7B-45AC0B8F9B8B" Gid="EA70AA33-4BA1-4A7E-9884-F7A45E36CA59" name="Users">Users</a></li>
+                                <li><a href="#" Gref="4F49593F-BD5E-4FFE-BB7B-45AC0B8F9B8B" Gid="12415A54-AE0A-4105-85D4-9B973D5A5CAD" name="Roles">Roles</a></li>
+                                <li><a href="#" Gref="4F49593F-BD5E-4FFE-BB7B-45AC0B8F9B8B" Gid="F131580E-EAD9-4973-A6FE-BED6661B06D0" name="ChangePassword">ChangePassword</a></li>
+                            </ul>
+                        </li>
+                        <%--<li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>--%>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+

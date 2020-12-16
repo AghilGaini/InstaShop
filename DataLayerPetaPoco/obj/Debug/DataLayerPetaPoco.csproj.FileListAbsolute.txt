@@ -18,3 +18,10 @@ D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPe
 D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.dll
 D:\MyProjects\InstaShop-master\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.pdb
+D:\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.dll.config
+D:\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.dll
+D:\InstaShop\DataLayerPetaPoco\bin\Debug\DataLayerPetaPoco.pdb
+D:\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csprojAssemblyReference.cache
+D:\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
+D:\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.dll
+D:\InstaShop\DataLayerPetaPoco\obj\Debug\DataLayerPetaPoco.pdb

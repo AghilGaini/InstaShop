@@ -42,3 +42,7 @@ D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Utilities.dll
 D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Newtonsoft.Json.dll
 D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Utilities.pdb
 D:\MyProjects\InstaShop-master\InstaShop\BusinessLite\bin\Debug\Newtonsoft.Json.xml
+D:\InstaShop\BusinessLite\bin\Debug\Utilities.dll
+D:\InstaShop\BusinessLite\bin\Debug\Newtonsoft.Json.dll
+D:\InstaShop\BusinessLite\bin\Debug\Utilities.pdb
+D:\InstaShop\BusinessLite\bin\Debug\Newtonsoft.Json.xml
