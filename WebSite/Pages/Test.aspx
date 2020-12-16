@@ -4,6 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div class="container">
+        <% var a = "aghil"; %>
     <div class="row">
         <div class="col-md-4 col-sm-6">
             <div class="product-grid2">
