@@ -1,0 +1,1 @@
+var BaseApiUrl = 'http://localhost/InstaShopApi';

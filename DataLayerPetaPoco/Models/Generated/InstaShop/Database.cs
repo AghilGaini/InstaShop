@@ -186,6 +186,10 @@ namespace DataLayerPetaPoco.Models.Generated.InstaShop
 
 							public static string CreatedBy = @"CreatedBy";
 
+							public static string PicURL1 = @"PicURL1";
+
+							public static string PicURL2 = @"PicURL2";
+
 			
 		}
 
@@ -197,6 +201,8 @@ namespace DataLayerPetaPoco.Models.Generated.InstaShop
 		[Column] public Guid? Gref { get; set; }
 		[Column] public DateTime? CreatedOn { get; set; }
 		[Column] public string CreatedBy { get; set; }
+		[Column] public string PicURL1 { get; set; }
+		[Column] public string PicURL2 { get; set; }
 	}
     
 	[TableName("[dbo].[Shop]")]

@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\Test.aspx" />
+    <Content Include="Scripts\DynamicElements.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\BasicInfo.js" />
     <Content Include="Scripts\myToastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Styles\bootstrap.min.css" />

@@ -16,6 +16,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="../Scripts/toastr.min.js"></script>
     <script src="../Scripts/myToastr.js"></script>
+    <script src="../Scripts/BasicInfo.js"></script>
+    <script src="../Scripts/DynamicElements.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

@@ -29,12 +29,13 @@ h3.h3 {
 
         .product-grid2 .product-image2 img {
             width: 100%;
-            height: auto
+            height: auto;
+            padding:5px;
         }
 
 .product-image2 .pic-1 {
     opacity: 1;
-    transition: all .5s
+    transition: all .5s;
 }
 
 .product-grid2:hover .product-image2 .pic-1 {
