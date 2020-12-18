@@ -1,0 +1,16 @@
+D:\MyProjects\InstaShop\MyException\bin\Release\MyException.dll
+D:\MyProjects\InstaShop\MyException\bin\Release\MyException.pdb
+D:\MyProjects\InstaShop\MyException\bin\Release\BusinessLite.dll
+D:\MyProjects\InstaShop\MyException\bin\Release\DataLayerPetaPoco.dll
+D:\MyProjects\InstaShop\MyException\bin\Release\Utilities.dll
+D:\MyProjects\InstaShop\MyException\bin\Release\Newtonsoft.Json.dll
+D:\MyProjects\InstaShop\MyException\bin\Release\BusinessLite.pdb
+D:\MyProjects\InstaShop\MyException\bin\Release\DataLayerPetaPoco.pdb
+D:\MyProjects\InstaShop\MyException\bin\Release\DataLayerPetaPoco.dll.config
+D:\MyProjects\InstaShop\MyException\bin\Release\Utilities.pdb
+D:\MyProjects\InstaShop\MyException\bin\Release\Newtonsoft.Json.xml
+D:\MyProjects\InstaShop\MyException\obj\Release\MyException.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop\MyException\obj\Release\MyException.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop\MyException\obj\Release\MyException.csproj.CopyComplete
+D:\MyProjects\InstaShop\MyException\obj\Release\MyException.dll
+D:\MyProjects\InstaShop\MyException\obj\Release\MyException.pdb

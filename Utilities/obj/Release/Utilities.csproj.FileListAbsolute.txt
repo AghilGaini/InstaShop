@@ -1,0 +1,9 @@
+D:\MyProjects\InstaShop\Utilities\bin\Release\Utilities.dll
+D:\MyProjects\InstaShop\Utilities\bin\Release\Utilities.pdb
+D:\MyProjects\InstaShop\Utilities\bin\Release\Newtonsoft.Json.dll
+D:\MyProjects\InstaShop\Utilities\bin\Release\Newtonsoft.Json.xml
+D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.csprojAssemblyReference.cache
+D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.csproj.CoreCompileInputs.cache
+D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.csproj.CopyComplete
+D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.dll
+D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.pdb
