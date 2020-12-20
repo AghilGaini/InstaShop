@@ -12,3 +12,17 @@ D:\MyProjects\InstaShop\Logger\obj\Release\Logger.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop\Logger\obj\Release\Logger.csproj.CopyComplete
 D:\MyProjects\InstaShop\Logger\obj\Release\Logger.dll
 D:\MyProjects\InstaShop\Logger\obj\Release\Logger.pdb
+D:\InstaShop\Logger\bin\Release\Logger.dll
+D:\InstaShop\Logger\bin\Release\Logger.pdb
+D:\InstaShop\Logger\bin\Release\DataLayerPetaPoco.dll
+D:\InstaShop\Logger\bin\Release\Newtonsoft.Json.dll
+D:\InstaShop\Logger\bin\Release\Utilities.dll
+D:\InstaShop\Logger\bin\Release\DataLayerPetaPoco.pdb
+D:\InstaShop\Logger\bin\Release\DataLayerPetaPoco.dll.config
+D:\InstaShop\Logger\bin\Release\Utilities.pdb
+D:\InstaShop\Logger\bin\Release\Newtonsoft.Json.xml
+D:\InstaShop\Logger\obj\Release\Logger.csprojAssemblyReference.cache
+D:\InstaShop\Logger\obj\Release\Logger.csproj.CoreCompileInputs.cache
+D:\InstaShop\Logger\obj\Release\Logger.csproj.CopyComplete
+D:\InstaShop\Logger\obj\Release\Logger.dll
+D:\InstaShop\Logger\obj\Release\Logger.pdb

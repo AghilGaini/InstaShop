@@ -7,3 +7,12 @@ D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.csproj.CoreCompileInputs
 D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.csproj.CopyComplete
 D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.dll
 D:\MyProjects\InstaShop\Utilities\obj\Release\Utilities.pdb
+D:\InstaShop\Utilities\bin\Release\Utilities.dll
+D:\InstaShop\Utilities\bin\Release\Utilities.pdb
+D:\InstaShop\Utilities\bin\Release\Newtonsoft.Json.dll
+D:\InstaShop\Utilities\bin\Release\Newtonsoft.Json.xml
+D:\InstaShop\Utilities\obj\Release\Utilities.csprojAssemblyReference.cache
+D:\InstaShop\Utilities\obj\Release\Utilities.csproj.CoreCompileInputs.cache
+D:\InstaShop\Utilities\obj\Release\Utilities.csproj.CopyComplete
+D:\InstaShop\Utilities\obj\Release\Utilities.dll
+D:\InstaShop\Utilities\obj\Release\Utilities.pdb

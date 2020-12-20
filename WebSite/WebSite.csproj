@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Test\1.jpg" />
     <Content Include="Pages\Test.aspx" />
     <Content Include="Scripts\DynamicElements.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -72,7 +73,10 @@
     <Content Include="Scripts\myToastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\CardStyle.css" />
+    <Content Include="Styles\Fonts\fontiran.css" />
     <Content Include="Styles\GridStyles\ProductGrids.css" />
+    <Content Include="Styles\style.css" />
     <Content Include="Styles\toastr.min.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -96,6 +100,26 @@
   <ItemGroup>
     <Content Include="Pages\SiteMaster.Master" />
     <None Include="packages.config" />
+    <Content Include="Styles\Fonts\eot\IRANSansWeb.eot" />
+    <Content Include="Styles\Fonts\eot\IRANSansWeb_Bold.eot" />
+    <Content Include="Styles\Fonts\eot\IRANSansWeb_Light.eot" />
+    <Content Include="Styles\Fonts\eot\IRANSansWeb_Medium.eot" />
+    <Content Include="Styles\Fonts\eot\IRANSansWeb_UltraLight.eot" />
+    <Content Include="Styles\Fonts\ttf\IRANSansWeb.ttf" />
+    <Content Include="Styles\Fonts\ttf\IRANSansWeb_Bold.ttf" />
+    <Content Include="Styles\Fonts\ttf\IRANSansWeb_Light.ttf" />
+    <Content Include="Styles\Fonts\ttf\IRANSansWeb_Medium.ttf" />
+    <Content Include="Styles\Fonts\ttf\IRANSansWeb_UltraLight.ttf" />
+    <Content Include="Styles\Fonts\woff2\IRANSansWeb.woff2" />
+    <Content Include="Styles\Fonts\woff2\IRANSansWeb_Bold.woff2" />
+    <Content Include="Styles\Fonts\woff2\IRANSansWeb_Light.woff2" />
+    <Content Include="Styles\Fonts\woff2\IRANSansWeb_Medium.woff2" />
+    <Content Include="Styles\Fonts\woff2\IRANSansWeb_UltraLight.woff2" />
+    <Content Include="Styles\Fonts\woff\IRANSansWeb.woff" />
+    <Content Include="Styles\Fonts\woff\IRANSansWeb_Bold.woff" />
+    <Content Include="Styles\Fonts\woff\IRANSansWeb_Light.woff" />
+    <Content Include="Styles\Fonts\woff\IRANSansWeb_Medium.woff" />
+    <Content Include="Styles\Fonts\woff\IRANSansWeb_UltraLight.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -6,7 +6,7 @@
 // 
 //     Connection String Name: `InstaShop`
 //     Provider:               `System.Data.SqlClient`
-//     Connection String:      `Data Source=.\sqlexpress;Initial Catalog=InstaShop;Integrated Security=False;User Id=sa;password=**zapped**;MultipleActiveResultSets=True`
+//     Connection String:      `Data Source=51.178.215.252;Initial Catalog=InstaShop;Integrated Security=False;User Id=admin;password=**zapped**;MultipleActiveResultSets=True`
 //     Schema:                 ``
 //     Include Views:          `False`
 
@@ -186,9 +186,11 @@ namespace DataLayerPetaPoco.Models.Generated.InstaShop
 
 							public static string CreatedBy = @"CreatedBy";
 
+							public static string PicURL2 = @"PicURL2";
+
 							public static string PicURL1 = @"PicURL1";
 
-							public static string PicURL2 = @"PicURL2";
+							public static string Color = @"Color";
 
 			
 		}
@@ -201,8 +203,9 @@ namespace DataLayerPetaPoco.Models.Generated.InstaShop
 		[Column] public Guid? Gref { get; set; }
 		[Column] public DateTime? CreatedOn { get; set; }
 		[Column] public string CreatedBy { get; set; }
-		[Column] public string PicURL1 { get; set; }
 		[Column] public string PicURL2 { get; set; }
+		[Column] public string PicURL1 { get; set; }
+		[Column] public string Color { get; set; }
 	}
     
 	[TableName("[dbo].[Shop]")]

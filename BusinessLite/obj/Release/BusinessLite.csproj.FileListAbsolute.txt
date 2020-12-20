@@ -12,3 +12,17 @@ D:\MyProjects\InstaShop\BusinessLite\obj\Release\BusinessLite.csproj.CoreCompile
 D:\MyProjects\InstaShop\BusinessLite\obj\Release\BusinessLite.csproj.CopyComplete
 D:\MyProjects\InstaShop\BusinessLite\obj\Release\BusinessLite.dll
 D:\MyProjects\InstaShop\BusinessLite\obj\Release\BusinessLite.pdb
+D:\InstaShop\BusinessLite\bin\Release\BusinessLite.dll
+D:\InstaShop\BusinessLite\bin\Release\BusinessLite.pdb
+D:\InstaShop\BusinessLite\bin\Release\DataLayerPetaPoco.dll
+D:\InstaShop\BusinessLite\bin\Release\Utilities.dll
+D:\InstaShop\BusinessLite\bin\Release\Newtonsoft.Json.dll
+D:\InstaShop\BusinessLite\bin\Release\DataLayerPetaPoco.pdb
+D:\InstaShop\BusinessLite\bin\Release\DataLayerPetaPoco.dll.config
+D:\InstaShop\BusinessLite\bin\Release\Utilities.pdb
+D:\InstaShop\BusinessLite\bin\Release\Newtonsoft.Json.xml
+D:\InstaShop\BusinessLite\obj\Release\BusinessLite.csprojAssemblyReference.cache
+D:\InstaShop\BusinessLite\obj\Release\BusinessLite.csproj.CoreCompileInputs.cache
+D:\InstaShop\BusinessLite\obj\Release\BusinessLite.csproj.CopyComplete
+D:\InstaShop\BusinessLite\obj\Release\BusinessLite.dll
+D:\InstaShop\BusinessLite\obj\Release\BusinessLite.pdb

@@ -5,3 +5,10 @@ D:\MyProjects\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.csprojAs
 D:\MyProjects\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.dll
 D:\MyProjects\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.pdb
+D:\InstaShop\DataLayerPetaPoco\bin\Release\DataLayerPetaPoco.dll.config
+D:\InstaShop\DataLayerPetaPoco\bin\Release\DataLayerPetaPoco.dll
+D:\InstaShop\DataLayerPetaPoco\bin\Release\DataLayerPetaPoco.pdb
+D:\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.csprojAssemblyReference.cache
+D:\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.csproj.CoreCompileInputs.cache
+D:\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.dll
+D:\InstaShop\DataLayerPetaPoco\obj\Release\DataLayerPetaPoco.pdb

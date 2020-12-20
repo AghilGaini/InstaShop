@@ -2,6 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="../Styles/GridStyles/ProductGrids.css" />
+    <link rel="stylesheet" href="../Styles/CardStyle.css" />
 
     <script type="text/javascript">
         var Result;
@@ -24,15 +25,14 @@
             });
         });
 
-        function CreateCategories(Result) {
-            var RowNumbers = Math.ceil(Result.payload.length/3);
+        function CreateCategories1(Result) {
+            var RowNumbers = Math.ceil(Result.payload.length / 3);
             var MainCategory = document.getElementById("MainCategory");
 
-            for (i = 0; i < RowNumbers; i++)
-            {
+            for (i = 0; i < RowNumbers; i++) {
                 var Row = document.createElement('div');
                 Row.setAttribute('class', 'row');
-                Row.setAttribute('id', 'rowCategory'+i);
+                Row.setAttribute('id', 'rowCategory' + i);
                 MainCategory.appendChild(Row);
             }
 
@@ -69,13 +69,64 @@
             }
         }
 
+        function CreateCategories(Result) {
+            var RowNumbers = Math.ceil(Result.payload.length / 3);
+            var MainCategory = document.getElementById("MainCategory");
+
+            for (i = 0; i < RowNumbers; i++) {
+                var Row = document.createElement('div');
+                Row.setAttribute('class', 'row');
+                Row.setAttribute('id', 'rowCategory' + i);
+                MainCategory.appendChild(Row);
+            }
+
+            for (i = 0; i < Result.payload.length; i++) {
+
+                var RowNumber = Math.floor(i / 3);
+                var RowCategory = document.getElementById('rowCategory' + RowNumber);
+
+                var Col = document.createElement('div');
+                Col.setAttribute('class', 'col-md-4 col-sm-6');
+                RowCategory.appendChild(Col);
+
+                var Card = document.createElement('div');
+                Card.setAttribute('class', 'card CardStyle');
+                Card.setAttribute('style', 'background-color:' + Result.payload[i].Color);
+                Col.appendChild(Card);
+
+                var CardBody = document.createElement('div');
+                CardBody.setAttribute('class', 'card-body');
+                Card.appendChild(CardBody);
+
+                var CardTitle = document.createElement('h5');
+                CardTitle.setAttribute('class', 'card-title');
+                CardTitle.textContent = Result.payload[i].Title;
+                CardBody.appendChild(CardTitle);
+
+
+                var CardIcon = document.createElement('img');
+                CardIcon.setAttribute('class', 'card-image card-img');
+                CardIcon.src = Result.payload[i].PicURL1;
+                CardBody.appendChild(CardIcon);
+
+            }
+        }
+
     </script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 
-    
-    <div  id="MainCategory">
+    <div id="MainCategory">
+        <%--<div class="row" id="rowCategory0">
+            <div class="col-md-4 col-sm-6">
+                <div class="card CardStyle" style="background-color: #F44336;display:block">
+                    <div class="card-body">
+                        <h5 class="card-title">کالای دیجیتال</h5>
+                        <img class="card-image" src="../Images/Test/1.jpg" style="width: 50px; float:left;" />
+                    </div>
+                </div>
+            </div>
+        </div>--%>
     </div>
-
 </asp:Content>
