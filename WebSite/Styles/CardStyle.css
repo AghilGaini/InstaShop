@@ -16,3 +16,7 @@
     width: 50px;
     float: left;
 }
+
+.CardStyle:hover{
+    /*width:50%;*/
+}

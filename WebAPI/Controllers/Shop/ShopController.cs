@@ -11,7 +11,6 @@ namespace WebAPI.Controllers.Shop
         [HttpGet]
         public IHttpActionResult GetCategory(long CategoryID)
         {
-
             var MainCategory = BusinessLite.FacadeInstaShop.GetCategoryBusiness().CategoryList.FirstOrDefault(r => r.ID == CategoryID);
 
             if (MainCategory.IsNull())
@@ -33,12 +32,20 @@ namespace WebAPI.Controllers.Shop
                 }
             }
 
+            var Shops = new List<DataLayerPetaPoco.Models.Generated.InstaShop.Shop>();
+            foreach(var item in CategoryIDs)
+            {
+                var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().GetbyCategoryIDs(CategoryIDs);
+                if (TempShops.Count != 0)
+                    Shops.AddRange(TempShops);
+            }
+
             return Ok(new
             {
                 code = 200,
                 message = "seccess",
-                count = 0,
-                payload = "Res"
+                count = Shops.Count,
+                payload = Shops
             });
         }
 

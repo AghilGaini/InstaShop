@@ -1,1 +1,1 @@
-var BaseApiUrl = 'http://localhost/InstaShopApi';
+var BaseApiUrl = 'http://localhost/InstaShopApi/api';
