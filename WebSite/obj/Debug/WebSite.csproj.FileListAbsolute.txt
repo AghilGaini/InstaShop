@@ -111,8 +111,8 @@ D:\MyProjects\InstaShop\WebSite\bin\roslyn\VBCSCompiler.exe
 D:\MyProjects\InstaShop\WebSite\bin\roslyn\VBCSCompiler.exe.config
 D:\MyProjects\InstaShop\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\MyProjects\InstaShop\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\MyProjects\InstaShop\WebSite\obj\Debug\WebSite.csprojAssemblyReference.cache
 D:\MyProjects\InstaShop\WebSite\obj\Debug\WebSite.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop\WebSite\obj\Debug\WebSite.csproj.CopyComplete
 D:\MyProjects\InstaShop\WebSite\obj\Debug\WebSite.dll
 D:\MyProjects\InstaShop\WebSite\obj\Debug\WebSite.pdb
+D:\MyProjects\InstaShop\WebSite\obj\Debug\WebSite.csprojAssemblyReference.cache

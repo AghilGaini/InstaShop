@@ -87,7 +87,7 @@
                 var RowCategory = document.getElementById('rowCategory' + RowNumber);
 
                 var CategoryLink = document.createElement('a');
-                CategoryLink.href = BaseApiUrl + 'Pages/shop.aspx?CategoryID=' + Result.payload[i].ID;
+                CategoryLink.href =  '../Pages/shops.aspx?CategoryID=' + Result.payload[i].ID;
                 RowCategory.appendChild(CategoryLink);
 
                 var Col = document.createElement('div');

@@ -39,27 +39,27 @@
 
         function CreateShops(Result) {
             var RowNumbers = Math.ceil(Result.payload.length / 3);
-            var MainCategory = document.getElementById("MainCategory");
+            var MainShop = document.getElementById("MainShop");
 
             for (i = 0; i < RowNumbers; i++) {
                 var Row = document.createElement('div');
                 Row.setAttribute('class', 'row');
-                Row.setAttribute('id', 'rowCategory' + i);
-                MainCategory.appendChild(Row);
+                Row.setAttribute('id', 'rowShop' + i);
+                MainShop.appendChild(Row);
             }
 
             for (i = 0; i < Result.payload.length; i++) {
 
                 var RowNumber = Math.floor(i / 3);
-                var RowCategory = document.getElementById('rowCategory' + RowNumber);
+                var RowShop = document.getElementById('rowShop' + RowNumber);
 
-                var CategoryLink = document.createElement('a');
-                CategoryLink.href = BaseApiUrl + 'Pages/shop.aspx?CategoryID=' + Result.payload[i].ID;
-                RowCategory.appendChild(CategoryLink);
+                var ShopLink = document.createElement('a');
+                ShopLink.href = BaseApiUrl + 'Pages/shop.aspx?CategoryID=' + Result.payload[i].ID;
+                RowShop.appendChild(ShopLink);
 
                 var Col = document.createElement('div');
                 Col.setAttribute('class', 'col-md-4 col-sm-6');
-                CategoryLink.appendChild(Col);
+                ShopLink.appendChild(Col);
 
                 var Card = document.createElement('div');
                 Card.setAttribute('class', 'card CardStyle');
@@ -88,7 +88,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 
-    <div id="MainCategory">
+    <div id="MainShop">
         <%--<div class="row" id="rowCategory0">
             <a href="http://localhost/InstaShopWebSite/pages/Shop.aspx?CategoryID=1"></a>
             <div class="col-md-4 col-sm-6">
