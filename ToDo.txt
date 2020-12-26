@@ -1,4 +1,15 @@
+Back :
 1-Bulk Insert Items
 2-General SP in petapoco
 3-Craete Except And Join Command in Petapoco
 4-Create Virtual Path For Files
+
+
+Front : 
+1-Paggination
+https://stackoverflow.com/questions/44257853/create-pagination-on-div-using-jquery
+https://www.demo.yogihosting.com/jquery/jquery-pagination/
+
+2-Create Margin and Gap Columns for Shops 
+3-Create Animation (interAction) forCategories 
+4-Try to design pages looks like together

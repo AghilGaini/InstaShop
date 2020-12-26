@@ -6,6 +6,7 @@
         var Result = {};
         var CategoryID;
         $(document).ready(function () {
+            return;
             CategoryID = getUrlVars()["CategoryID"].toLowerCase();
 
             var URL = BaseApiUrl + '/Shop?CategoryID=' + CategoryID;
@@ -37,7 +38,7 @@
             return vars;
         }
 
-        function CreateShops(Result) {
+        function CreateShops1(Result) {
             var RowNumbers = Math.ceil(Result.payload.length / 3);
             var MainShop = document.getElementById("MainShop");
 
@@ -89,17 +90,91 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 
     <div id="MainShop">
-        <%--<div class="row" id="rowCategory0">
-            <a href="http://localhost/InstaShopWebSite/pages/Shop.aspx?CategoryID=1"></a>
-            <div class="col-md-4 col-sm-6">
-                    <div class="card CardStyle" style="background-color: #F44336; display: block">
-                        <div class="card-body">
-                            <h5 class="card-title">کالای دیجیتال</h5>
-                            <img class="card-image" src="../Images/Test/1.jpg" style="width: 50px; float: left;" />
+        
+        <div class="row RowClass">
+            <div class="col-md-4" style="background-color:lightgray;padding:4px;">
+                <div class="col-md-3">
+                    <img class="img-circle" src="../Images/Test/1.jpg" width="50" height="50" />
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <h5>UserName</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Following</h5>
+                            <h5>1000</h5>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Followers</h5>
+                            <h5>2000</h5>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Posts</h5>
+                            <h5>2000</h5>
                         </div>
                     </div>
+                    <div class="row">
+                        This is For Bio
+                    </div>
                 </div>
-        </div>--%>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-3">
+                    <img src="../Images/Test/1.jpg" width="50" height="50" />
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <h5>UserName</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Following</h5>
+                            <h5>1000</h5>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Followers</h5>
+                            <h5>2000</h5>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Posts</h5>
+                            <h5>2000</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        This is For Bio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-3">
+                    <img src="../Images/Test/1.jpg" width="50" height="50" />
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <h5>UserName</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Following</h5>
+                            <h5>1000</h5>
+                        </div>
+                        <div class="col-md-4  col-xs-4">
+                            <h5>Followers</h5>
+                            <h5>2000</h5>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <h5>Posts</h5>
+                            <h5>2000</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        This is For Bio
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </asp:Content>
