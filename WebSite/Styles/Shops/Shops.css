@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.T1 {
+    font-family: 'Palanquin', sans-serif;
+}
+.T2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.T3 {
+    font-family: 'PT Sans', sans-serif;
+}
+.T4 {
+    font-family: 'Fira Sans', sans-serif;
+}
+.T5 {
+    font-family: 'Montserrat', sans-serif;
+}
+.T6 {
+    font-family: 'Abril Fatface', cursive;
+}
+.T7 {
+    font-family: 'Playfair Display', serif;
+}
+.T8 {
+    font-family: 'Merriweather', serif;
+}
+.T9 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.T10 {
+    font-family: 'Gravitas One', cursive;
+}
+.T11 {
+    font-family: 'Fjord One', serif;
+}
+.T12 {
+    font-family: 'Amaranth', sans-serif;
+}
+.T13 {
+    font-family: 'Gentium Basic', serif;
+}
+.T14 {
+    font-family: 'Signika', sans-serif;
+}
+.T15 {
+    font-family: 'Josefin Slab', serif;
+}
+.T16 {
+    font-family: 'Arvo', serif;
+}
+.T17 {
+    font-family: 'Bevan', cursive;
+}
+.T18 {
+    font-family: 'Old Standard TT', serif;
+}
+.T19 {
+    font-family: 'Vollkorn', serif;
+}
+.T20 {
+    font-family: 'Roboto Slab', serif;
+}
+.T21 {
+    font-family: 'Crimson Text', serif;
+}
+.T22 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.InstagramProfileUserName {
+    font-family: 'Fira Sans', sans-serif;
+    text-align:center;
+}
+.InstagramProfileStatsHeader {
+    font-family: 'Amaranth', sans-serif;
+}
+.InstagramProfileStatsCount {
+    font-family: 'Montserrat', sans-serif;
+}
+.InstagramProfileBio {
+    font-family: 'Arvo', serif;
+    font-size:10px;
+    padding-left:15px;
+}
+
+.ProfileCardStyle {
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    color: black;
+    overflow: visible;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

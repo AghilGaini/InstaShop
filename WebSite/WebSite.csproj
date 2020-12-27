@@ -77,7 +77,7 @@
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="Styles\CardStyle.css" />
     <Content Include="Styles\Fonts\fontiran.css" />
-    <Content Include="Styles\GridStyles\ProductGrids.css" />
+    <Content Include="Styles\Shops\Shops.css" />
     <Content Include="Styles\style.css" />
     <Content Include="Styles\toastr.min.css" />
     <Content Include="Web.config" />
