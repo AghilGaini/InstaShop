@@ -1,12 +1,18 @@
-function CreateElements(htmlTag,className,id,textContext)
-{
-    var Html = document.createElement(htmlTag);
-    if (textContext)
-        Html.textContext = textContext;
-    if (className)
-        Html.setAttribute('class', className);
-    if (id)
-        Html.setAttribute('id', id);
+function CreateElements(htmlTag, attr, id, textContext, parent) {
+    var Child = document.createElement(htmlTag);
 
-    return Html;
+    if (textContext)
+        Child.innerText = textContext;
+    if (attr) {
+        for (var i = 0; i < attr.length; i++) {
+            for (var key in attr[i]) {
+                Child.setAttribute(key, attr[i][key]);
+            }
+        }
+    }
+    if (id)
+        Child.setAttribute('id', id);
+    if (parent)
+        parent.appendChild(Child);
+    return Child;
 }
