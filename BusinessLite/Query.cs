@@ -119,6 +119,20 @@ namespace BusinessLite
         {
             q.Append(string.Format(" ORDER BY {0} {1} ", col, OrderType));
         }
+        public void Offset(int Rows)
+        {
+            q.Append(string.Format(" OFFSET {0}  ROWS ", Rows));
+        }
+
+        public void Take(int Rows)
+        {
+            q.Append(string.Format(" FETCH NEXT {0} ROWS ONLY ", Rows));
+        }
+
+        public void SkipTake(int Skip, int Take)
+        {
+            q.Append(string.Format(" OFFSET {0}  ROWS  FETCH NEXT {1} ROWS ONLY ", Skip, Take));
+        }
 
     }
 }

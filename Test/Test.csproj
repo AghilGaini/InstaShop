@@ -56,6 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BusinessLite\BusinessLite.csproj">
+      <Project>{09041048-f414-4927-9332-8e77c48dc7ea}</Project>
+      <Name>BusinessLite</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataLayerPetaPoco\DataLayerPetaPoco.csproj">
       <Project>{8bbc8f0d-1cb6-4931-a459-2a9506613aba}</Project>
       <Name>DataLayerPetaPoco</Name>

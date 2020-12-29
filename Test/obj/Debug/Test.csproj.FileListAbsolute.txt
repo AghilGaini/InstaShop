@@ -61,3 +61,5 @@ D:\MyProjects\InstaShop\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop\Test\obj\Debug\Test.csproj.CopyComplete
 D:\MyProjects\InstaShop\Test\obj\Debug\Test.exe
 D:\MyProjects\InstaShop\Test\obj\Debug\Test.pdb
+D:\InstaShop\Test\bin\Debug\BusinessLite.dll
+D:\InstaShop\Test\bin\Debug\BusinessLite.pdb

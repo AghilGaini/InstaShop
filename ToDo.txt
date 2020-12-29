@@ -4,6 +4,9 @@ Back :
 3-Craete Except And Join Command in Petapoco
 4-Create Virtual Path For Files
 5-Define the Standard length for Bio
+6-Cache time For Category and Shops 
+7-Set DataBase Config For Caches
+
 
 Front : 
 1-Paggination

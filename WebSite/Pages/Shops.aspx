@@ -22,10 +22,10 @@
                     Result = result;
                     Status = status;
                     Xhr = xhr;
-                    //CreateShops(Result);
+                    CreateShops(Result);
                 },
                 error: function (xhr, status, error) {
-
+                    alert('ridam.url : ' + URL);
                 }
             });
 
@@ -43,7 +43,6 @@
         }
 
         function CreateShops(Result) {
-
             var Count = 9;
 
             //var RowNumbers = Math.ceil(Result.payload.length / 3);
@@ -58,6 +57,10 @@
 
                 var RowNumber = Math.floor(i / 3);
                 var RowShop = document.getElementById('rowShop' + RowNumber);
+
+                if (i % 3 == 0) {
+                    CreateElements('div', [{ 'class': 'col-md-1 col-sm-1' }], null, null, RowShop);
+                }
 
                 var Profile = CreateElements('div', [{ 'class': 'col-md-3 col-sm-6 ProfileCardStyle' }], null, null, RowShop);
 
@@ -82,6 +85,10 @@
 
                 var RowBio = CreateElements('div', [{ 'class': 'row InstagramProfileBio' }], null, null, Profile);
                 CreateElements('p', null, null, 'Test Bio', RowBio);
+
+                if (i % 3 == 2) {
+                    CreateElements('div', [{ 'class': 'col-md-1 col-sm-1' }], null, null, RowShop);
+                }
             }
         }
 
@@ -114,7 +121,7 @@
         <p class="T21">AghilGaeini21</p>
         <p class="T22">AghilGaeini22</p>--%>
 
-        <%--<div class="row">
+        <div class="row">
             <div class="col-md-1 col-sm-1"></div>
             <div class="col-md-3 col-sm-6 ProfileCardStyle">
                 <div class="row" style="padding-left: 15px;">UserName</div>
@@ -332,20 +339,20 @@
                 </div>
             </div>
             <div class="col-md-1 col-sm-1"></div>
-        </div>--%>
+        </div>
 
-        <%-- <div class="row" style="padding: 2px; text-align: center;">
+         <div class="row" style="padding: 2px; text-align: center;">
             <div class="pagination">
-                <a href="#" class="Test" id="p0">&laquo;</a>
-                <a href="#" class="Test" id="p1">1</a>
-                <a href="#" class="active Test" id="p2">2</a>
-                <a href="#" class="Test" id="p3">3</a>
-                <a href="#" class="Test" id="p4">4</a>
-                <a href="#" class="Test" id="p5">5</a>
-                <a href="#" class="Test" id="p6">6</a>
+                <a href="#" class="Test">&laquo;</a>
+                <a href="#" class="Test">1</a>
+                <a href="#" class="active Test">2</a>
+                <a href="#" class="Test">3</a>
+                <a href="#" class="Test">4</a>
+                <a href="#" class="Test">5</a>
+                <a href="#" class="Test">6</a>
                 <a href="#">&raquo;</a>
             </div>
-        </div>--%>
+        </div>
 
     </div>
 

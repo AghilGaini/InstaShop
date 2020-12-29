@@ -8,6 +8,27 @@ namespace BusinessLite.InstaShop.dbo
 {
     public class ShopBusiness : InstaShopBase<Shop>
     {
+        static private List<Shop> _shop = new List<Shop>();
+        static private DateTime ShopCacheTime = DateTime.Now;
+
+
+        public List<Shop> ShopList
+        {
+            get
+            {
+                if (_shop.IsNull() || _shop.Count == 0 || DateTime.Now.Subtract(ShopCacheTime).TotalSeconds > 0)
+                {
+                    _shop = this.GetAllList().OrderByDescending(r => r.CategoryID).ToList();
+                    ShopCacheTime = DateTime.Now;
+                }
+                return _shop;
+            }
+            set
+            {
+                _shop = value;
+            }
+        }
+
         public Shop GetByID(long ID)
         {
             var q = this.GetAll(1);
@@ -25,5 +46,6 @@ namespace BusinessLite.InstaShop.dbo
 
             return this.Fetch(q);
         }
+
     }
 }

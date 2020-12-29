@@ -9,7 +9,7 @@ namespace WebAPI.Controllers.Shop
     public class ShopController : ApiController
     {
         [HttpGet]
-        public IHttpActionResult GetCategory(long CategoryID)
+        public IHttpActionResult GetCategory(long CategoryID, int PageNumber = 0)
         {
             var MainCategory = BusinessLite.FacadeInstaShop.GetCategoryBusiness().CategoryList.FirstOrDefault(r => r.ID == CategoryID);
 
@@ -32,12 +32,21 @@ namespace WebAPI.Controllers.Shop
                 }
             }
 
+            int SkipPage = 0;
+            if (PageNumber > 0)
+                SkipPage = PageNumber - 1;
+            int PageItemCount = 9;
+
             var Shops = new List<DataLayerPetaPoco.Models.Generated.InstaShop.Shop>();
-            foreach(var item in CategoryIDs)
+            foreach (var item in CategoryIDs)
             {
-                var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().GetbyCategoryIDs(CategoryIDs);
+                var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().ShopList.FindAll(r => r.CategoryID == item).Skip(SkipPage * 9).Take(PageItemCount).ToList();
                 if (TempShops.Count != 0)
                     Shops.AddRange(TempShops);
+
+                //var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().GetbyCategoryIDs(CategoryIDs);
+                //if (TempShops.Count != 0)
+                //    Shops.AddRange(TempShops);
             }
 
             return Ok(new
