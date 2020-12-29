@@ -16,3 +16,4 @@ https://www.demo.yogihosting.com/jquery/jquery-pagination/
 2-Create Margin and Gap Columns for Shops 
 3-Create Animation (interAction) forCategories 
 4-Try to design pages looks like together
+5-Check o Tick Shop URL (not null query string)
