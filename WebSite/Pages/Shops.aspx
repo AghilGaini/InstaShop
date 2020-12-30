@@ -1,29 +1,31 @@
 ﻿<%@ Page Title="Shops" Language="C#" MasterPageFile="~/Pages/SiteMaster.Master" AutoEventWireup="true" CodeBehind="Shops.aspx.cs" Inherits="WebSite.Pages.Shops" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script src="../Scripts/script.js"></script>
     <link rel="stylesheet" href="../Styles/CardStyle.css" />
     <link rel="stylesheet" href="../Styles/Shops/Shops.css" />
 
     <script type="text/javascript">
-        var Shops = {};
+        Shops = {};
         var CategoryID;
         $(document).ready(function () {
             FisrtTime();
+
+            $(".PaginationLink").click(function (s, e) {
+                $(".PaginationLink").removeClass('active');
+                $(this).addClass('active');
+                var PageNumber = $(this).attr('value');
+
+                $('#MainShop').empty()
+
+                GetShops(PageNumber);
+
+
+            });
         });
 
-        function getUrlVars() {
-            var vars = [], hash;
-            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-            for (var i = 0; i < hashes.length; i++) {
-                hash = hashes[i].split('=');
-                vars.push(hash[0].toLowerCase());
-                vars[hash[0]] = hash[1].toLowerCase();
-            }
-            return vars;
-        }
-
         function GetShops(PageNumber) {
-            CategoryID = getUrlVars()["CategoryID"].toLowerCase();
+            CategoryID = parseInt(getUrlVars()["CategoryID"]);
             if (!PageNumber)
                 PageNumber = 0;
 
@@ -33,20 +35,20 @@
                 type: "GET",
                 url: URL,
                 dataType: "json",
-                success: function (result, status, xhr) {
-                    Shops = result;
-                    Status = status;
-                    Xhr = xhr;
+                success: function (data) {
+                    Shops = data
                     CreateShops(Shops);
                 },
-                error: function (xhr, status, error) {
+                error: function (data) {
                     alert('ridam.url : ' + URL);
                 }
             });
         }
 
         function CreateShops(Result) {
-            var Count = Result.payload.length;
+
+            Shops = Result;
+            var Count = Result.payload.Shops.length;
 
             var RowNumbers = Math.ceil(Count / 3);
             var MainShop = document.getElementById("MainShop");
@@ -75,18 +77,18 @@
 
                 var FollowingDiv = CreateElements('div', [{ 'class': 'col-md-3 col-xs-3' }], null, null, RowStats);
                 CreateElements('h5', [{ 'class': 'InstagramProfileStatsHeader' }], null, 'Following', FollowingDiv);
-                CreateElements('h5', [{ 'class': 'InstagramProfileStatsCount' }], null, Result.payload[i].Following, FollowingDiv);
+                CreateElements('h5', [{ 'class': 'InstagramProfileStatsCount' }], null, Result.payload.Shops[i].Following, FollowingDiv);
 
                 var FollowersDiv = CreateElements('div', [{ 'class': 'col-md-3 col-xs-3' }], null, null, RowStats);
                 CreateElements('h5', [{ 'class': 'InstagramProfileStatsHeader' }], null, 'Followers', FollowersDiv);
-                CreateElements('h5', [{ 'class': 'InstagramProfileStatsCount' }], null, Result.payload[i].Followers, FollowersDiv);
+                CreateElements('h5', [{ 'class': 'InstagramProfileStatsCount' }], null, Result.payload.Shops[i].Followers, FollowersDiv);
 
                 var PostsDiv = CreateElements('div', [{ 'class': 'col-md-3 col-xs-3' }], null, null, RowStats);
                 CreateElements('h5', [{ 'class': 'InstagramProfileStatsHeader' }], null, 'Posts', PostsDiv);
-                CreateElements('h5', [{ 'class': 'InstagramProfileStatsCount' }], null, Result.payload[i].PostsCount, PostsDiv);
+                CreateElements('h5', [{ 'class': 'InstagramProfileStatsCount' }], null, Result.payload.Shops[i].PostsCount, PostsDiv);
 
                 var RowBio = CreateElements('div', [{ 'class': 'row InstagramProfileBio' }], null, null, Profile);
-                CreateElements('p', null, null, Result.payload[i].Bio, RowBio);
+                CreateElements('p', null, null, Result.payload.Shops[i].Bio, RowBio);
 
                 if (i % 3 == 2) {
                     CreateElements('div', [{ 'class': 'col-md-1 col-sm-1' }], null, null, RowShop);
@@ -95,19 +97,20 @@
         }
 
         function CreatePaginationLink(PageCount) {
+
             var PaginationDiv = document.getElementById('PaginationDiv');
             var MainRow = CreateElements('div', [{ 'class': 'row' }, { 'style': 'padding: 2px; text-align: center;' }], null, null, PaginationDiv);
 
             var PaginationLinsDiv = CreateElements('div', [{ 'class': 'pagination' }], null, null, MainRow);
 
             CreateElements('a', [{ 'class': 'PaginationLink' }], null, '&laquo;', PaginationLinsDiv);
-            for (var i = 0; i < 9; i++) {
+            for (var i = 0; i < PageCount; i++) {
 
-                var Class='';
+                var Class = '';
                 if (i == 0)
                     Class = 'active';
 
-                CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }], null, ''+(i+1), PaginationLinsDiv);
+                CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }, { 'value': i + 1 }], null, '' + (i + 1), PaginationLinsDiv);
             }
             CreateElements('a', [{ 'class': 'PaginationLink' }], null, '&raquo;', PaginationLinsDiv);
 
@@ -123,7 +126,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 
     <div id="MainShop">
-
         <%--<p class="T1">AghilGaeini1</p>
         <p class="T2">AghilGaeini2</p>
         <p class="T3">AghilGaeini3</p>
@@ -369,7 +371,7 @@
     </div>
 
     <div class="PaginationDiv" id="PaginationDiv">
-       <%-- <div class="row" style="padding: 2px; text-align: center;">
+        <%-- <div class="row" style="padding: 2px; text-align: center;">
             <div class="pagination">
                 <a href="#" class="PaginationLink">&laquo;</a>
                 <a href="#" class="PaginationLink">1</a>

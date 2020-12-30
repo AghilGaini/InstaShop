@@ -36,17 +36,18 @@ namespace WebAPI.Controllers.Shop
             if (PageNumber > 0)
                 SkipPage = PageNumber - 1;
             int PageItemCount = 9;
-
+            int ShopsCount = 0;
             var Shops = new List<DataLayerPetaPoco.Models.Generated.InstaShop.Shop>();
             foreach (var item in CategoryIDs)
             {
-                var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().ShopList.FindAll(r => r.CategoryID == item).Skip(SkipPage * 9).Take(PageItemCount).ToList();
+                var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().ShopList.FindAll(r => r.CategoryID == item);
+                ShopsCount = (TempShops.IsNull() || TempShops.Count == 0) ? 0 : TempShops.Count;
+
+                TempShops = TempShops.Skip(SkipPage * 9).Take(PageItemCount).ToList();
+
                 if (TempShops.Count != 0)
                     Shops.AddRange(TempShops);
 
-                //var TempShops = BusinessLite.FacadeInstaShop.GetShopBusiness().GetbyCategoryIDs(CategoryIDs);
-                //if (TempShops.Count != 0)
-                //    Shops.AddRange(TempShops);
             }
 
             return Ok(new
@@ -54,7 +55,7 @@ namespace WebAPI.Controllers.Shop
                 code = 200,
                 message = "seccess",
                 count = Shops.Count,
-                payload = Shops
+                payload = new { Shops = Shops, ShopsCount = ShopsCount }
             });
         }
 

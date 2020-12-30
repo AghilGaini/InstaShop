@@ -1,5 +1,4 @@
 function CreateElements(htmlTag, attr, id, textContext, parent) {
-    debugger;
     var Child = document.createElement(htmlTag);
 
     if (textContext)

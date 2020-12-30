@@ -69,6 +69,7 @@
     <Content Include="Pages\Shops.aspx" />
     <Content Include="Pages\Test.aspx" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Scripts\DynamicElements.js" />
     <Content Include="Scripts\BasicInfo.js" />
     <Content Include="Scripts\jquery.min.js" />
