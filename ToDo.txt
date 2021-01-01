@@ -17,3 +17,7 @@ https://www.demo.yogihosting.com/jquery/jquery-pagination/
 3-Create Animation (interAction) forCategories 
 4-Try to design pages looks like together
 5-Check o Tick Shop URL (not null query string)
+6-gozashtan last page o first page baraye shop ha 
+7-toye next page ezafe tar nare 
+8-kamel kardane bio (font o andaze)
+9-dorost kardane default page

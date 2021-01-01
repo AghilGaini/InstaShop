@@ -7,21 +7,17 @@
 
     <script type="text/javascript">
         Shops = {};
+        var CurrentPage = 0;
         var CategoryID;
+
         $(document).ready(function () {
+
             FisrtTime();
 
             $(".PaginationLink").click(function (s, e) {
-                $(".PaginationLink").removeClass('active');
-                $(this).addClass('active');
-                var PageNumber = $(this).attr('value');
-
-                $('#MainShop').empty()
-
-                GetShops(PageNumber);
-
-
+                ChangePage(s, e);
             });
+
         });
 
         function GetShops(PageNumber) {
@@ -35,9 +31,9 @@
                 type: "GET",
                 url: URL,
                 dataType: "json",
+                async: false,
                 success: function (data) {
-                    Shops = data
-                    CreateShops(Shops);
+                    Shops = data;
                 },
                 error: function (data) {
                     alert('ridam.url : ' + URL);
@@ -47,7 +43,6 @@
 
         function CreateShops(Result) {
 
-            Shops = Result;
             var Count = Result.payload.Shops.length;
 
             var RowNumbers = Math.ceil(Count / 3);
@@ -96,32 +91,65 @@
             }
         }
 
-        function CreatePaginationLink(PageCount) {
+        function CreatePaginationLink(TotalItems) {
+
+            var TotalPages = Math.ceil(TotalItems / 9);
 
             var PaginationDiv = document.getElementById('PaginationDiv');
             var MainRow = CreateElements('div', [{ 'class': 'row' }, { 'style': 'padding: 2px; text-align: center;' }], null, null, PaginationDiv);
 
             var PaginationLinsDiv = CreateElements('div', [{ 'class': 'pagination' }], null, null, MainRow);
 
-            CreateElements('a', [{ 'class': 'PaginationLink' }], null, '&laquo;', PaginationLinsDiv);
-            for (var i = 0; i < PageCount; i++) {
+            CreateElements('a', [{ 'class': 'PaginationLink' }], 'PervPage', 'Perv', PaginationLinsDiv);
+            for (var i = 0; i < TotalPages; i++) {
 
                 var Class = '';
                 if (i == 0)
                     Class = 'active';
 
-                CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }, { 'value': i + 1 }], null, '' + (i + 1), PaginationLinsDiv);
+                CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }, { 'value': i + 1 }], 'Page'+(i+1), '' + (i + 1), PaginationLinsDiv);
             }
-            CreateElements('a', [{ 'class': 'PaginationLink' }], null, '&raquo;', PaginationLinsDiv);
-
+            CreateElements('a', [{ 'class': 'PaginationLink' }], 'NextPage', 'Next', PaginationLinsDiv);
+            
+            CurrentPage = 1;
         }
 
         function FisrtTime() {
             GetShops();
-            CreatePaginationLink(9);
+            CreateShops(Shops)
+            CreatePaginationLink(Shops.payload.ShopsCount);
+        }
+
+        function ChangePage(s, e) {
+
+            var PageNumber;
+
+            if (s.currentTarget.id == "PervPage") {
+                if (CurrentPage == 1)
+                    return;
+                PageNumber = parseInt(CurrentPage) - 1;
+            }
+            else if (s.currentTarget.id == "NextPage") {
+                PageNumber = parseInt(CurrentPage) + 1;
+            }
+            else {
+                PageNumber = $(s.currentTarget).attr('value');
+                if (PageNumber == CurrentPage)
+                    return;
+            }
+
+            CurrentPage = PageNumber;
+            $(".PaginationLink").removeClass('active');
+            $('#Page' + PageNumber).addClass('active');
+
+            $('#MainShop').empty();
+
+            GetShops(PageNumber);
+            CreateShops(Shops);
         }
 
     </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 
