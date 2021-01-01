@@ -21,3 +21,5 @@ https://www.demo.yogihosting.com/jquery/jquery-pagination/
 7-toye next page ezafe tar nare 
 8-kamel kardane bio (font o andaze)
 9-dorost kardane default page
+10-download google fonts
+11-limit for bio and replace enters 

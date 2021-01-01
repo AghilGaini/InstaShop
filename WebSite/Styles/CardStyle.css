@@ -11,12 +11,14 @@
     direction: rtl;
     color: white;
     overflow:auto;
+    opacity:0.9;
 }
 .card-img {
     width: 50px;
     float: left;
 }
 
-.CardStyle:hover{
-    /*width:50%;*/
+.CardStyle:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
