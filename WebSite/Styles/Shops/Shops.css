@@ -188,9 +188,13 @@ a.button4 {
     }
 
 div.scrollmenu {
-    background-color: #333;
+    /*    background-color: #333;*/
     overflow: auto;
     white-space: nowrap;
+    margin-left: 11%;
+    margin-right: 16%;
+    margin-bottom: 0.6%;
+    border-radius: 10px;
 }
 
 div.scrollmenu a {
