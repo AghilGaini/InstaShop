@@ -23,84 +23,108 @@
 .T1 {
     font-family: 'Palanquin', sans-serif;
 }
+
 .T2 {
     font-family: 'Archivo Narrow', sans-serif;
 }
+
 .T3 {
     font-family: 'PT Sans', sans-serif;
 }
+
 .T4 {
     font-family: 'Fira Sans', sans-serif;
 }
+
 .T5 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .T6 {
     font-family: 'Abril Fatface', cursive;
 }
+
 .T7 {
     font-family: 'Playfair Display', serif;
 }
+
 .T8 {
     font-family: 'Merriweather', serif;
 }
+
 .T9 {
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .T10 {
     font-family: 'Gravitas One', cursive;
 }
+
 .T11 {
     font-family: 'Fjord One', serif;
 }
+
 .T12 {
     font-family: 'Amaranth', sans-serif;
 }
+
 .T13 {
     font-family: 'Gentium Basic', serif;
 }
+
 .T14 {
     font-family: 'Signika', sans-serif;
 }
+
 .T15 {
     font-family: 'Josefin Slab', serif;
 }
+
 .T16 {
     font-family: 'Arvo', serif;
 }
+
 .T17 {
     font-family: 'Bevan', cursive;
 }
+
 .T18 {
     font-family: 'Old Standard TT', serif;
 }
+
 .T19 {
     font-family: 'Vollkorn', serif;
 }
+
 .T20 {
     font-family: 'Roboto Slab', serif;
 }
+
 .T21 {
     font-family: 'Crimson Text', serif;
 }
+
 .T22 {
     font-family: 'Roboto Slab', serif;
 }
 
 .InstagramProfileUserName {
     font-family: 'Fira Sans', sans-serif;
-    text-align:center;
+    text-align: center;
 }
+
 .InstagramProfileStatsHeader {
     font-family: 'Amaranth', sans-serif;
 }
+
 .InstagramProfileStatsCount {
     font-family: 'Montserrat', sans-serif;
 }
+
 .InstagramProfileBio {
     font-family: 'Arvo', serif;
-    font-size:10px;
-    padding-left:15px;
+    font-size: 10px;
+    padding-left: 15px;
 }
 
 .ProfileCardStyle {
@@ -117,20 +141,28 @@
     display: inline-block;
 }
 
-.pagination a {
-    color: black;
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+.etcPages {
     float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-.pagination a.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-}
-
-.pagination a:hover:not(.active) {
-    background-color: #ddd;
-    border-radius: 5px;
+    padding: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
 }

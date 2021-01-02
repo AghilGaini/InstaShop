@@ -8,6 +8,9 @@
     <script type="text/javascript">
         Shops = {};
         var CurrentPage = 0;
+        var LastPage = 0;
+        var FirstPage = 0;
+        var LimiTotalPages = 3;
         var CategoryID;
 
         $(document).ready(function () {
@@ -39,6 +42,8 @@
                     alert('ridam.url : ' + URL);
                 }
             });
+
+            LastPage = Math.ceil(Shops.payload.ShopsCount / 9);
         }
 
         function CreateShops(Result) {
@@ -94,24 +99,41 @@
         function CreatePaginationLink(TotalItems) {
 
             var TotalPages = Math.ceil(TotalItems / 9);
+            var Count = 1;
 
             var PaginationDiv = document.getElementById('PaginationDiv');
             var MainRow = CreateElements('div', [{ 'class': 'row' }, { 'style': 'padding: 2px; text-align: center;' }], null, null, PaginationDiv);
 
-            var PaginationLinsDiv = CreateElements('div', [{ 'class': 'pagination' }], null, null, MainRow);
+            var PaginationLinsDiv = CreateElements('div', [{ 'class': 'pagination' }], 'PaginationLinks', null, MainRow);
 
-            CreateElements('a', [{ 'class': 'PaginationLink' }], 'PervPage', 'Perv', PaginationLinsDiv);
-            for (var i = 0; i < TotalPages; i++) {
+            CreateElements('a', [{ 'class': 'PaginationLink' }], 'PervPage', '<<', PaginationLinsDiv);
 
-                var Class = '';
-                if (i == 0)
-                    Class = 'active';
 
-                CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }, { 'value': i + 1 }], 'Page'+(i+1), '' + (i + 1), PaginationLinsDiv);
+            if (TotalPages > LimiTotalPages) {
+                for (var i = 1; i < 3; i++) {
+                    var Class = '';
+                    if (i == 1)
+                        Class = 'active';
+
+                    CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }, { 'value': i }], 'Page' + (i), '' + (i), PaginationLinsDiv);
+                }
+                CreateElements('span', [{ 'class': 'PaginationLink etcPages' }], 'etcPages', '...', PaginationLinsDiv);
+                CreateElements('a', [{ 'class': 'PaginationLink ' }, { 'href': '#' }, { 'value': TotalPages }], 'Page' + (TotalPages), '' + (TotalPages), PaginationLinsDiv);
             }
-            CreateElements('a', [{ 'class': 'PaginationLink' }], 'NextPage', 'Next', PaginationLinsDiv);
-            
+            else {
+                for (var i = 1; i <= TotalPages; i++) {
+                    var Class = '';
+                    if (i == 1)
+                        Class = 'active';
+
+                    CreateElements('a', [{ 'class': 'PaginationLink ' + Class }, { 'href': '#' }, { 'value': i }], 'Page' + (i), '' + (i), PaginationLinsDiv);
+                }
+            }
+
+            CreateElements('a', [{ 'class': 'PaginationLink' }], 'NextPage', '>>', PaginationLinsDiv);
+
             CurrentPage = 1;
+            FirstPage = 1;
         }
 
         function FisrtTime() {
@@ -122,6 +144,7 @@
 
         function ChangePage(s, e) {
 
+            debugger;
             var PageNumber;
 
             if (s.currentTarget.id == "PervPage") {
@@ -130,7 +153,21 @@
                 PageNumber = parseInt(CurrentPage) - 1;
             }
             else if (s.currentTarget.id == "NextPage") {
+                if (CurrentPage == LastPage)
+                    return;
                 PageNumber = parseInt(CurrentPage) + 1;
+
+                //if ($('#Page' + PageNumber).length == 0) {
+                //    rmFirstPage = $('#Page' + parseInt(FirstPage));
+                //    if (rmFirstPage.length == 0)
+                //        return;
+                //    rmFirstPage.remove();
+                //    //var PaginationLinks = document.getElementById('PaginationLinks');
+                //    var NewPage = CreateElements('a', [{ 'class': 'PaginationLink ' }, { 'href': '#' }, { 'value': PageNumber }], 'Page' + (PageNumber), '' + (PageNumber), null);
+                //    NewPage.insertBefore($('#etcPages'));
+
+                //    FirstPage += 1;
+                //}
             }
             else {
                 PageNumber = $(s.currentTarget).attr('value');
