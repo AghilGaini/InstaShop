@@ -24,3 +24,4 @@ https://www.demo.yogihosting.com/jquery/jquery-pagination/
 10-download google fonts
 11-limit for bio and replace enters 
 12-set Cache for pagination
+13-Complete pagination (last page , First Page , Next Page , Previous Page) and Css Design
