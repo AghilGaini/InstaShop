@@ -277,3 +277,6 @@ D:\MyProjects\InstaShop\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 D:\MyProjects\InstaShop\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
 D:\MyProjects\InstaShop\WebAPI\obj\Debug\WebAPI.dll
 D:\MyProjects\InstaShop\WebAPI\obj\Debug\WebAPI.pdb
+D:\InstaShop\WebAPI\bin\System.Web.Cors.dll
+D:\InstaShop\WebAPI\bin\System.Web.Http.Cors.dll
+D:\InstaShop\WebAPI\bin\System.Web.Http.Cors.xml

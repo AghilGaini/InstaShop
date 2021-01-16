@@ -2,6 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="../Scripts/script.js"></script>
+    <script src="code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
     <link rel="stylesheet" href="../Styles/CardStyle.css" />
     <link rel="stylesheet" href="../Styles/Shops/Shops.css" />
 
@@ -19,6 +21,15 @@
 
             $(".PaginationLink").click(function (s, e) {
                 ChangePage(s, e);
+            });
+
+            jQuery(".button4").draggable({
+                cursor: "move",
+                containment: "parent",
+                stop: function () {
+                    if (jQuery(".button4").position().left < 1)
+                        jQuery(".button4").css("left", "720px");
+                }
             });
 
         });
@@ -185,6 +196,8 @@
             GetShops(PageNumber);
             CreateShops(Shops);
         }
+
+
 
     </script>
 
